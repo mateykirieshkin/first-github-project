@@ -1,0 +1,78 @@
+.cont-img {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -50px;
+        }
+        
+        img  {
+            width: 272px;
+            height: 92px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -120px;
+            margin-left: 10px;
+            transform: translate(-50%, -50%);
+        }
+        
+        .search {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            padding: 5px 40px;
+            width: 500px;
+            height: 33px;
+            margin-top: -10px;
+        }
+        
+        .search:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .search-input {
+            border: none;
+            outline: none;
+            flex: 1;
+            user-select: none;
+            
+        }
+        .search-ic {
+            position: absolute;
+            margin-bottom: -35px;
+            margin-left: -28px;
+        }
+        #search-icon {
+            width: 50px;
+            height: 50px;
+        }
+        .keyboard {
+            position: absolute;
+            margin-bottom: -35px;
+            margin-left: 430px;
+        }
+        #keyboard-icon {
+            width: 50px;
+            height: 50px;
+        }
+        .microphone {
+            position: absolute;
+            margin-bottom: -35px;
+            margin-left: 470px;
+        }
+        #microphone-icon {
+            width: 50px;
+            height: 50px;
+        }
+        .camera {
+            position: absolute;
+            margin-bottom: -35px;
+            margin-left: 505px;
+        }
+        #camera-icon {
+            width: 50px;
+            height: 50px;
+        }
